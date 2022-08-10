@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    text-align: left;
+}
+
+button.lg_b {
+    border: none;
+    border: none;
+    width: 160px;
+    margin: auto;
+    background: #cf030361;
+}
+
+a.logout_b {
+    text-decoration: none;
+    display: inline-block;
+    padding: 2px;
+    width: 100%;
+    color: black;
+}
+
+ul.details li {
+    padding: 2px;
+    font-weight: 400;
+    color: #000488;
+    list-style-type: disclosure-closed;
+}
+
+div.cgbtn button {
+    border: 1px solid lightgray;
+    background: #b9cce8;
+    width: 65%;
+    border-radius: 0;
+    font-size: 15px;
+    color: #a60808;
+}
+
+div.cgbtn button:hover {
+    background: #8caede;
+}

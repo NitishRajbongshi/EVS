@@ -1,0 +1,46 @@
+div.option {
+    margin-top: 5px;
+
+}
+
+div.colll {
+    background: #efeffd;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    width: 350px;
+    height: 220px;
+}
+
+.op_col {
+    flex-direction: column;
+}
+
+.op_col>div {
+    width: 100%;
+}
+
+div.odd {
+    background-color: #e6e6e6;
+}
+
+div.even {
+    background-color: rgb(237 250 230);
+}
+h4 {
+    font-size: 18px;
+}
+
+.title {
+    color: red;
+}
+
+input {
+    width: 80%;
+    background-color: #c6d3f2;
+    border: none;
+    border-radius: 17px;
+    padding: 4px;
+    color: #009688;
+}
+

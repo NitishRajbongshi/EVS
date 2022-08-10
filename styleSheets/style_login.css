@@ -1,0 +1,15 @@
+div.loginform {
+    width: 68%;
+    margin: auto;
+    padding: 3px;
+}
+
+.loginbtn {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    div.loginform {
+        width: 98%;
+    }
+}

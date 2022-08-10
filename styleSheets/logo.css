@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+span.spn {
+    display: inline-block;
+    margin: 0px -10px;
+    padding: 0px 8px;
+    font-size: 30px;
+}
+
+span#e {
+    color: red;
+}
+
+span#v {
+    color: blue;
+}
+
+span#s {
+    color: green;
+}

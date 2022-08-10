@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.my-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.coll-1,
+div.coll-2 {
+    width: 550px;
+    height: 300px;
+    margin: 5px;
+}
+
+#header_coll_1 {
+
+    background: #dadded;
+}
+
+#header_coll_2 {
+    background: #ccc6cb;
+    padding: 7px;
+}
+
+div.roww-2 {
+    background-color: rgb(234 225 244);
+    padding: 15px;
+    
+}
+
+@media screen and (max-width:800px) {
+    div.my-flex {
+        flex-flow: wrap;
+    }
+}
+
+h3#proc {
+    color: blue;
+}
+
+
+footer {
+    width: 100%;
+    padding: 10px;
+    margin: 30px 0 0 0;
+    text-align: center;
+}
